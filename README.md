@@ -14,14 +14,16 @@ Summary: Best subset glm using information criteria or cross-validation.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-bestglm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-bestglm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-bestglm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-bestglm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-bestglm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-bestglm-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bestglm-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bestglm-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-bestglm-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bestglm-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bestglm-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bestglm-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bestglm/badges/version.svg)](https://anaconda.org/conda-forge/r-bestglm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bestglm/badges/downloads.svg)](https://anaconda.org/conda-forge/r-bestglm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--bestglm-green.svg)](https://anaconda.org/conda-forge/r-bestglm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-bestglm.svg)](https://anaconda.org/conda-forge/r-bestglm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-bestglm.svg)](https://anaconda.org/conda-forge/r-bestglm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-bestglm.svg)](https://anaconda.org/conda-forge/r-bestglm) |
 
 Installing r-bestglm
 ====================
