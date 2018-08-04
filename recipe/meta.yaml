@@ -15,7 +15,8 @@ source:
   sha256: 90f9b1e0a718cdc1ea273ae5a6717fa849cc01e0d0d12b333484bfcf2c0e5ab5
 
 build:
-  number: 0
+  merge_build_host: True  # [win]
+  number: 1
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -23,14 +24,15 @@ build:
 
 requirements:
   build:
+    - posix                # [win]
+    - {{ compiler('c') }}        # [unix]
+    - {{ compiler('m2w64_c') }}  # [win]
+  host:
     - r-base
     - r-glmnet
     - r-grpreg
     - r-lattice
     - r-leaps
-    - posix                # [win]
-    - {{native}}toolchain  # [win]
-    - gcc                  # [not win]
 
   run:
     - r-base
@@ -38,7 +40,6 @@ requirements:
     - r-grpreg
     - r-lattice
     - r-leaps
-    - libgcc  # [not win]
 
 test:
   commands:
