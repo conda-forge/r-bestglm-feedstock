@@ -1,4 +1,4 @@
-{% set version = '0.37' %}
+{% set version = "0.37.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bestglm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bestglm/bestglm_{{ version }}.tar.gz
-  sha256: 9f268572dea45b9da5850a8e7d5a88628462344281ef3ced15f8d5721e89103e
+  sha256: b87689651ae009c57e2433d9d734038d1eb283476706f431d102b504ad0c8d8f
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
